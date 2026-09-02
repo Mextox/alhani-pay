@@ -1,0 +1,9 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: alhani-pay
+    ports:
+      - "8090:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+    restart: unless-stopped
