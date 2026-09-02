@@ -1,0 +1,43 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 559,
+      "h": 794,
+      "title": "لافتة A5",
+      "print": "fixed"
+    },
+    {
+      "file": "A4Poster.dc.html",
+      "x": 660,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "ملصق A4",
+      "print": "fixed"
+    },
+    {
+      "file": "CounterCard.dc.html",
+      "x": 1560,
+      "y": 0,
+      "w": 559,
+      "h": 397,
+      "title": "بطاقة الكاونتر A6",
+      "print": "fixed"
+    },
+    {
+      "file": "Sticker.dc.html",
+      "x": 1560,
+      "y": 520,
+      "w": 302,
+      "h": 302,
+      "title": "ملصق 8×8 سم",
+      "print": "fixed"
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
