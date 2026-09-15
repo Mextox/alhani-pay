@@ -8,7 +8,7 @@
 - الشعار: `logo-white.png` / `logo-orange.png` (خلفية شفافة) مستخرجان من شعار العميل.
 
 ---
-## الحالة: مكتمل ومؤرشف (2026-09-11)
+## الحالة: محدَّث (2026-09-15) — 5 مصارف: الوحدة، التجارة والتنمية، شمال أفريقيا، الجمهورية، النوران
 
 | العنصر | الرابط / المسار |
 |---|---|
@@ -22,4 +22,5 @@
 git add -A && git commit -m "..." && git push origin main
 git branch -D gh-pages; git subtree split --prefix public -b gh-pages && git push -f origin gh-pages
 ```
+توليد PDF الطباعة بلا Playwright: `cd print && ../.venv/bin/python build_print.py && google-chrome --headless=new --no-sandbox --no-pdf-header-footer --print-to-pdf=alhani-mall-qr-print.pdf ../public/_print/print.html`.
 عند تغيير الرابط: `.venv/bin/python make_qr.py "https://..."` ثم `cd print && ../.venv/bin/python build_print.py` وأعد توليد الـ PDF.
